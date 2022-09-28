@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Base\Base.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Notes.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Play.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Lane.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Hit.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Movie.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Title\Title.cpp">
+      <Filter>Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SelectScene.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ScoreTemp.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Score.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ranking.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SoundNum.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{08f7cec8-fbd3-4356-8198-ad929e6f6ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{d507bbfa-4267-4db1-abb1-5bee59eab8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Title">
+      <UniqueIdentifier>{6b33052e-f85d-419b-9035-048ac73c320e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base\Base.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Notes.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Play.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Lane.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Hit.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Movie.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Title\Title.h">
+      <Filter>Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SelectScene.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ScoreTemp.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Score.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ranking.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SoundNum.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
